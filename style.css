@@ -16,14 +16,16 @@ img {
 
 /*==========VARIABLES============*/
 :root {
-  --hue: 159;
   --header-height: 4.5rem;
-  /*HSL color mode*/
+
+  /* colors */
+  --hue: 159;
+  /* HSL color mode */
   --base-color: hsl(var(--hue) 36% 57%);
   --base-color-second: hsl(var(--hue) 65% 88%);
   --base-color-alt: hsl(var(--hue) 57% 53%);
   --title-color: hsl(var(--hue) 41% 10%);
-  --text-color: hsl(0 0% 98%);
+  --text-color: hsl(0 0% 46%);
   --text-color-light: hsl(0 0% 98%);
   --body-color: hsl(0 0% 98%);
 }
@@ -89,7 +91,7 @@ h1 {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 100;
+  z-index: 98;
   background-color: var(--body-color);
   width: 100%;
 }
